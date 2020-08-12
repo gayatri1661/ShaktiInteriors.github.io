@@ -28,7 +28,7 @@ public class Login {
 	@Autowired
 	Userrepository Userepository;
 	
-	@RequestMapping(value="/shaktiinteriorss",method=RequestMethod.GET)
+	@RequestMapping(value="/shaktiinteriors1",method=RequestMethod.GET)
 	public String welcomemsg() {
 		return "welcome";
 	}
